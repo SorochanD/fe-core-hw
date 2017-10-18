@@ -1,0 +1,217 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: arial;
+}
+body{
+    background: url(../img/page-bg.jpg) no-repeat;
+    background-size: cover;
+    padding-top: 225px;
+    padding-bottom: 115px;
+    
+}
+.moscow{
+    float: left;
+       width: 360px; 
+max-width: 360px;
+height: auto;
+margin: 3px 4% 0 0;
+}
+h2{
+font-family: 'Pathway Gothic One', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    text-transform: uppercase;
+     color: #263555;
+    margin-bottom: 40px;
+}
+.width{
+    overflow: hidden;
+    width: 300px;
+    height: auto;
+}
+#lightness { 
+    max-width: 1023px;
+    width: 100%;
+    font-family: 'Pathway Gothic One', sans-serif;
+    padding-top: 120px;
+    margin: 0 auto 0 5.5em;
+     padding:  20px  0px  0px 0px;
+     background: #fff;
+     /* background: yellow; */
+     
+
+      /* background: linear-gradient(to right, hsl(0, 100%, 5%), hsl(166, 100%, 50%) 50%, hsl(0, 100%, 90%));  */
+  }
+/* div{
+    width: 405pt;
+
+} */
+.block_1{
+    float: left;
+    padding: 100px 1% 0px 60px;
+    width: 65%;
+    display:  inline-block;
+}
+.block_2{
+    padding: 103px 1% 0px 1.7%;
+    display: inline-block;
+    width: 22%;
+}
+   .img1{
+       height: 97pt;
+       width: 405pt;
+       padding: 10pt;
+   }
+   
+  .circle{
+      color: white;
+      width: 25px;
+      height: 25px;
+      border: 1px #4497bc solid;
+      background-color: #38afe5;
+      font-size: 14px;
+      text-align: center;
+      float: left;
+      line-height: 25px;
+      border-radius: 100%;
+  }
+  .blue{ 
+      color:#263555;
+      font-size: 15px;
+      /* color: #50586d */
+      font-weight: normal;
+      margin-bottom: 10px;
+    /* padding: 1pt;
+    width:calc(100%/3);
+    height: auto;  */
+  }
+    .grey{ 
+        color: #4e5050;
+         /* padding: 10pt; */
+         font-family: Arial, Helvetica, sans-serif;
+         font-size: 13px;
+         margin-bottom: 3%;
+
+    }
+    h3{
+        font-size: 15px;
+        font-weight: normal;
+        margin-bottom: 10px;
+        
+    }
+   
+
+   }
+    .blue12{
+        color:#263555;
+        font-size: 12pt;
+        padding:0pt 0pt 5pt 10pt; 
+    }
+.padding{
+        float: right;
+    /* padding: 33pt 0pt 5pt 32pt; */
+    width: 85%;
+    margin-bottom: 54px;
+    color: #263555;
+}
+.clearfix:before, .clearfix:after {
+    visibility: hidden;
+    display: block;
+    content: "";
+    clear: both;
+    height: 0;
+    margin-bottom: 0;
+}
+    .wwo {
+        padding: 80px 1% 0px  60px;
+        width: 65%;
+        display: inline-block;
+        float: left;
+        overflow: hidden;
+    }
+    .fl_list{
+        padding:20px 3% 20px 3% ;
+        display: inline-block;
+    }
+.fl{
+display: inline-block;
+list-style: url(../img/arrow.png); 
+color: #50589d;
+font-size: 16px;
+vertical-align: top;
+margin-left: 30px;
+}
+ .flr{
+display: inline-block;
+list-style: url(../img/arrow.png) ;
+color: #50589d;
+font-size: 16px;
+vertical-align: top;
+margin-left: 50px;
+    }   
+ .ter{
+     padding: 75px 1%  0px 1%;
+     display: inline-block;
+     width: 22%;
+      }
+      .ter h2{
+          display: block;
+          margin-bottom: 20px;
+      }   
+      .quote{
+          position: relative;
+          width: 100%;
+          height: 195px;
+          background: #fcfafa;
+          border: 1px solid #dfdcdc;
+          padding: 20px;
+          box-sizing: border-box;
+          font-size: 17px;
+          line-height: 1.5;
+          color:  #344260;
+          margin-bottom: 60px;
+      }
+      .mark{
+      font-size: 16px;
+      color: #344260;
+      text-align: center;
+      margin-bottom: 15px;}
+      
+      .position {
+        color: #4e5050;
+        font-size: 14px;
+        text-align: center;
+      }
+        .quote:after, .quote:before {
+            content: "\22";
+
+        }
+      /*
+  .padding2{
+      color: #4e5050 ;
+      padding:20pt 0pt 5pt 32pt; 
+             font-size: 10pt;
+  }
+  .padding3{
+    color: #4e5050 ;
+    padding:20pt 0pt 5pt 10pt; 
+    font-size: 10pt;
+}
+.fll{
+float: left;
+width: 50%;
+}
+.div2 {
+    padding: 20pt 0pt 0pt 30pt;
+    color:#263555;
+    font-size: 12pt;
+    
+}
+.flr{
+margin-left: 51%; 
+margin-top: 8pt;
+color:#263555;
+font-size: 12pt;
+
+    } */

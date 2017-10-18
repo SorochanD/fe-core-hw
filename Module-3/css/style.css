@@ -1,0 +1,86 @@
+.h1{
+font-family: 'Pathway Gothic One', sans-serif;
+    font-weight: 400;
+    src: url("https://fonts.googleapis.com/css?family=Pathway+Gothic+One");
+        text-transform: uppercase;
+     color: #263555;
+    
+
+ 
+ padding: 10pt;
+ height: vmax;
+ width: vmax;
+}
+.wwo{
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-weight: 400;
+    src: url("https://fonts.googleapis.com/css?family=Pathway+Gothic+One");
+        text-transform: uppercase;
+     color: #263555;
+    
+     
+     padding: 60pt 10pt 10pt 10pt;
+     height: vmax;
+     width: vmax;
+    }
+div{
+    width: 405pt;
+
+}
+   .img1{
+       height: 97pt;
+       width: 405pt;
+       padding: 10pt;
+   }
+  .blue{ 
+      color:#263555;
+    padding: 10pt;
+  }
+    .grey{ 
+        color: #4e5050;
+         padding: 10pt;
+         font-family: Arial, Helvetica, sans-serif;
+         font-size: 10pt;
+         
+
+    }
+    .lightness { 
+      width: 200;
+      height: 200;
+        background: linear-gradient(to right, hsl(0, 100%, 5%), hsl(166, 100%, 50%) 50%, hsl(0, 100%, 90%)); 
+    }
+    .blue12{
+        color:#263555;
+        font-size: 12pt;
+        padding:0pt 0pt 5pt 10pt; 
+    }
+.padding{
+    padding: 33pt 0pt 5pt 32pt;
+    color: #263555;
+}
+  .padding2{
+      color: #4e5050 ;
+      padding:20pt 0pt 5pt 32pt; 
+             font-size: 10pt;
+  }
+  .padding3{
+    color: #4e5050 ;
+    padding:20pt 0pt 5pt 10pt; 
+    font-size: 10pt;
+}
+.fll{
+float: left;
+width: 50%;
+}
+.div2 {
+    padding: 20pt 0pt 0pt 30pt;
+    color:#263555;
+    font-size: 12pt;
+    
+}
+.flr{
+margin-left: 51%; 
+margin-top: 8pt;
+color:#263555;
+font-size: 12pt;
+}
