@@ -1,0 +1,108 @@
+/* body{
+    background: url(../img/b.jpg) no-repeat;
+    opacity: 0.5;
+width: 1800px;
+height: 2000px; */
+body{
+    font-family:  'Pathway Gothic One', sans-serif;
+}
+
+nav{
+    text-transform: uppercase;
+}
+
+.wrapper{
+    background: grey;
+    width: 1024px;
+    height: 2000px;
+    margin: 0 auto;
+
+}
+header{
+    background: rgba(0, 128, 0, 0.651);
+height:235px; 
+max-width: 1024px;
+width: 100%;
+margin: auto;
+/* padding-bottom: 10px; */
+}
+.menu{
+    display: inline-block;
+    list-style-type: none;
+    width: 50%;
+    text-align: center;
+    padding: 100px 0 112px 13px;
+}
+li{
+    display: inline-block;
+    margin-right: 55px;
+}
+.logo{
+    width: 136px;
+    height: 136px;
+    background: rgb(255, 255, 255);
+    border-radius: 100%;
+    color: #263555;
+    font-size: 60px;
+    position: absolute;
+    text-align: center;
+    font-family: Dorsa;
+    line-height: 136px;
+    top: 47px;
+    left: 45%;
+}
+.submenu{
+    display: none;
+    background: white;
+    position: absolute;
+    margin-left: -5px ;
+    width: 65px;
+    padding: 0;
+    border-radius: 3px;
+    margin-top: 10px;
+    }
+    .menu_r{
+        display: inline-block;
+        list-style-type: none;
+        width: 43%;
+        text-align: center;
+        padding: 100px 0 102px 52px;
+    }
+    a{
+        text-decoration:none;
+        color: #fff;
+        font-size: 28px;
+            }
+            a:hover{
+                color: #263555;
+            }
+            .menu_r:last-of-type{
+                margin-right: 0;
+                }
+                .menu_r > li:first-of-type{
+                    margin-left: 5%;
+                }
+                .menu li:hover > ul{
+                    display: block;
+                }
+                .submenu a{
+                    color: #8990a0;
+                    font-size: 20px;
+                    }
+                    .submenu li{
+                        display: block;
+                        text-align: center;
+                        margin: 8px 0;
+
+                    }
+                    .submenu::before{
+                        position: absolute;
+                        width: 5px;
+                        height: 5px;
+                        background: #fff;
+                        content: "";
+                        /* transform: rotate(75deg); */
+                        left: 45%;
+                        top: -2%;
+                    }
+                    
