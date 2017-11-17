@@ -1,0 +1,14 @@
+.footer-social {
+	display: flex;
+	width: 20%;
+	justify-content: space-between;
+    margin: 0 auto;
+    background: none;
+	.footer-social__item {
+		width: 2.1em;
+		height: 2.1em;
+	}
+	a:hover img {
+		filter: brightness(90%);
+	}
+}

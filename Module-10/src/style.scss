@@ -1,0 +1,34 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+:root {
+	font-size: calc(1vw + 1vh + .5vmin);
+}
+
+body{
+	background-color: lightblue;
+	font: 1em/1.6 'Pathway Gothic One', sans-serif;
+}
+footer {
+	height: 132px;
+	width: 100%;
+	background-color: #30455b;
+}
+.copyright {
+	height: 125px;
+	display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+@import 'footer-copyright/_footer-copyright.scss';
+@import 'footer-menu/_footer-menu.scss';
+@import 'footer-social/_footer-social.scss';
+@import 'gallery-block/_gallery-block.scss';
+@import 'header-menu/_header-menu.scss';
+@import 'logo/_logo.scss';
+.wrapper {
+	max-width: 1024px;
+	width: 100%;
+	margin: 0 auto;
+}
